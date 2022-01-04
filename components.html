@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>components</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./colapsibles.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="color-heading">Single bookmark manager</h1>
+      </div>
+      <!-- nav -->
+      <nav>
+        <ul class="primary-navigation flex">
+          <li>
+            <a class="uppercase text-heading letter-spacing-3" href="#"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a class="uppercase text-heading letter-spacing-3" href="#"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a class="uppercase text-heading letter-spacing-3" href="#"
+              >Contact</a
+            >
+          </li>
+          <button
+            class="login-btn btn-shadow uppercase text-heading letter-spacing-1"
+          >
+            Login
+          </button>
+        </ul>
+      </nav>
+      <div class="flow">
+        <!-- tab-list -->
+        <div class="tab-list underline-indicators flex">
+          <button aria-selected="true" class="text-heading">
+            Simple Bookmarking
+          </button>
+          <button aria-selected="false" class="text-heading">
+            Speedy Searching
+          </button>
+          <button aria-selected="false" class="text-heading">
+            Easy Sharing
+          </button>
+        </div>
+        <!-- buttons -->
+        <button class="btn-blue btn-shadow text-white background-blue">
+          Get it on Chrome
+        </button>
+        <button class="btn-gray btn-shadow text-heading">
+          Get it on Chrome
+        </button>
+        <!-- extension cards -->
+        <div class="extension-cards grid">
+          <div class="extension-card flex">
+            <img src="./images/logo-chrome.svg" alt="Chrome logo" />
+            <div>
+              <h4 class="text-heading">Add to Chrome</h4>
+              <p>Minimum version 62</p>
+            </div>
+            <img src="./images/bg-dots.svg" alt="Dots img" />
+            <button class="btn-blue btn-shadow text-white background-blue">
+              Add & Install Extension
+            </button>
+          </div>
+        </div>
+        <!-- FAQ -->
+
+        <div class="collapsible">
+          <div class="faq-question flex text-heading">
+            What is Bookmark?
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+              <path
+                fill="none"
+                stroke="#5267DF"
+                stroke-width="3"
+                d="m1 1 8 8 8-8"
+              />
+            </svg>
+          </div>
+          <p class="faq-answer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum
+            quis quam ornare mattis.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
